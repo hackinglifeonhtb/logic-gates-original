@@ -1,0 +1,15 @@
+.black-color {
+    color: black !important;
+}
+
+.middle {
+    text-align:center;
+}
+
+.payment-input {
+    color: black;
+    background-color: white;
+    border: 0.5px solid grey !important;
+    border-radius: 5px !important;
+    height:30px !important;
+}

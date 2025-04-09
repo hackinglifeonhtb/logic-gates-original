@@ -1,0 +1,73 @@
+.exams-word {
+    color: black !important;
+}
+.explore-exams-button-page {
+    background-color:transparent;
+    border:2px solid #111770;
+    padding:10px 20px;
+    cursor:pointer;
+    color:black;
+    border-radius: 50px;
+    font-size:18px;
+    font-weight: bold;
+  }
+  
+  .explore-exams-button-page:hover {
+    animation: 0.4s both running switch_to_another_color1;
+  }
+  
+  .explore-exams-via-type-button {
+    background-color:transparent;
+    border:2px solid #111770;
+    padding:10px 25px;
+    cursor:pointer;
+    color:black;
+    border-radius: 50px;
+    font-size:18px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-right: 0px;
+    flex-basis: 300px;
+      flex-grow: 0;
+      flex-shrink: 0;
+  }
+  
+  .explore-exams-via-type-button:hover {
+    animation: 0.4s both running switch_to_another_color1;
+  }
+  
+  @keyframes switch_to_another_color1 {
+    from {background-color:white; color:black;}
+    to {background-color:#111770; color:white;}
+  }
+  
+  .test-explore-div-page {
+    width:250px;
+    background-color:white;
+    box-shadow: 0 10px 15px rgba(69, 79, 88, 0.05);
+    border-radius: 20px;
+    padding:25px;
+    height:320px;
+    margin-bottom:10px;
+  }
+  .test-explore-div-text {
+    color:black !important;
+  }
+  
+  .test-explore-div-button-page {
+    background-color:transparent;
+    border:2px solid #070a3a;
+    border-radius:5px;
+    padding:5px 25px;
+    font-size:13px;
+    transition:0.4s;
+  }
+  .test-explore-div-button-page:hover {
+    background-color:#111770; 
+    border:2px solid #111770;
+    color:white;
+  }
+  .blue-color {
+    color:#070a3a;
+    font-weight:bold;
+  }

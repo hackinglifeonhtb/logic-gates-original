@@ -1,0 +1,20 @@
+#product_link_component {
+    width:30%;
+}
+.check-box-filter .ticket {
+    width:30%;
+}
+.check-box-filter {
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    direction:rtl;
+}
+@media only screen and (max-width: 800px) {
+    #product_link_component {
+        width:100%;
+    }
+    .check-box-filter .ticket {
+        width:100%;
+    }
+}

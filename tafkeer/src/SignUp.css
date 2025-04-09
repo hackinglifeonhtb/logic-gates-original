@@ -1,0 +1,14 @@
+.signupDisplay {
+    display:block;
+}
+.signupDiv {
+    width:50%;
+}
+@media only screen and (max-width: 800px) {
+    .signupDisplay {
+        display: none;
+    }
+    .signupDiv {
+        width:100%;
+    }
+}

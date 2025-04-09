@@ -1,0 +1,13 @@
+.exam-entering-button {
+    background-color: #090e50;
+    padding:10px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #040739;
+    color: white;
+    transition: 0.4s;
+}
+
+.exam-entering-button:hover {
+    background-color: #131761;
+}

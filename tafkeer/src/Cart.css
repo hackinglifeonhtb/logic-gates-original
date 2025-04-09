@@ -1,0 +1,32 @@
+.cart-container {
+    display:flex;
+}
+.cart-container-first-child {
+    width:30%;
+}
+.cart-container-second-child {
+    width:70%;
+}
+.cart_product_details {
+    display:flex;
+}
+.cart_product_details_parent {
+    display:flex;
+}
+@media only screen and (max-width: 800px) {
+    .cart-container {
+        display:block;
+    }
+    .cart-container-first-child {
+        height:100vh;
+    }
+    .cart-container-first-child,.cart-container-second-child {
+        width:100%;
+    }
+    .cart_product_details {
+        display:block;
+    }
+    .cart_product_details_parent {
+        display:block;
+    }
+}

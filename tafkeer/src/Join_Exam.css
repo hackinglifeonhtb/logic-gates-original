@@ -1,0 +1,67 @@
+.greenlight-color {
+    color: #9fef00 !important;
+}
+
+.answer-div {
+    width:400px;
+    padding:10px 30px;
+    font-size:19px;
+    color:white;
+    border:1px solid #9fef00;
+    border-radius:5px;
+    direction:ltr;
+    margin-bottom:10px;
+    height:100px;
+    display:flex;
+    align-items:center;
+    transition: 0.4s;
+    cursor:pointer;
+}
+
+.answer-div:hover {
+    color: black;
+    background-color: #9fef00;
+}
+
+.answer-div:active {
+    color: black;
+    background-color: #9fef00;
+}
+
+
+* {
+
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* header {  
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+} */
+
+/*
+
+* {
+    opacity: 0;
+}
+
+*:hover {
+    opacity: 1;
+}
+
+*/
